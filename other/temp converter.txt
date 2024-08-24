@@ -1,0 +1,22 @@
+import java.util.*;
+
+class Main{
+    public static void main(String [] args){
+ 
+        Scanner sc = new Scanner(System.in);
+        System.out.println("What is the temperature :"); 
+        double temp = sc.nextDouble();
+        double current = temp *(9/5 ) + 32;
+        System.out.println(current);
+        
+        double min_temp = 70.0;
+        double max_temp = 80.0;
+        if ( current <= max_temp && current >= min_temp){
+            System.out.println(" Temperature is within the range");
+        }
+        else{
+            System.out.println("Temperature is not within the range");
+        }
+    }
+
+}

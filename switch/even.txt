@@ -1,0 +1,47 @@
+import java.util.*;
+
+class Main{
+    public static void main(String[] args){
+        
+        Scanner sc = new Scanner(System.in);
+         int count = 0;
+        int a = sc.nextInt();
+        count = a%2==0 ? count+1: count;
+        int b = sc.nextInt();
+        count = b%2==0 ? count+1: count;
+        int c = sc.nextInt();
+        count = c%2==0 ? count+1: count;
+       
+        
+        switch(count){
+            case 1:{
+                if(a%2==0){
+                System.out.println(a);
+                }else if (b%2==0){
+                    System.out.println(b);
+                }else{
+                    System.out.println(c);
+                }
+            }
+            break;
+            
+            case 2 :{
+                if(a%2==0 && b%2==0){
+                    System.out.println(a*b);                }
+                    if(a%2==0 && c%2==0){
+                    System.out.println(a*c);                }
+                    if(c%2==0 && b%2==0){
+                    System.out.println(b*c);                }
+                
+            }
+            break;
+            case 3:{
+                System.out.println(a*b*c);
+            }
+            break;
+            default:{
+                System.out.println("invalid");
+            }
+        }
+}
+}

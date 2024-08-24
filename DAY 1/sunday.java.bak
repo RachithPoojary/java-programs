@@ -1,0 +1,14 @@
+import java.util.scanner;
+
+class sunday{
+	public static void main (String [] args){
+		Scanner sc = new Scanner ( System.in);
+		int a = sc.nextInt();
+		System.out.println("enter the day;");
+		if(a==1){
+			System.out.println("its a sunaday");
+		}
+		else { 
+			System.out.prinln("go to office;")}
+	}
+}

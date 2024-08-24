@@ -1,0 +1,11 @@
+
+
+class HelloWorld {
+    public static void main(String[] arhs){
+        multiply(5,6,7);
+    }
+    public static void multiply(double a,double b,double c) {
+        double mul = a*b*c;
+        System.out.println(mul);
+    }
+}

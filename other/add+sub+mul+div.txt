@@ -1,0 +1,30 @@
+import java.util.*;
+class Main{
+
+    public static void main(String []args){
+        Scanner sc = new Scanner(System.in);
+        System.out.println("Enter the  number a=");
+        int a = sc.nextInt();
+        System.out.println("Enter the  number b=");
+        int b = sc.nextInt();
+        System.out.println("Enter the  number c=");
+        int c = sc.nextInt();
+        System.out.println("Enter the  number d=");
+        int d = sc.nextInt();
+        System.out.println("Enter the  number e=");
+        int e = sc.nextInt();
+        System.out.println("Enter the  number f=");
+        int f = sc.nextInt();
+        System.out.println("Enter the  number g=");
+        int g = sc.nextInt();
+        int sum = a+b+c+d+e;
+        int sub = a-b-c-d-e-f;
+        int mul = a*b*c*d*e*f*g;
+        int div = a/b;
+        System.out.println("Addition ="+sum);
+        System.out.println("Substraction ="+sub);
+        System.out.println("Multiplication ="+mul);
+        System.out.println("Division ="+div);
+      
+    }
+}

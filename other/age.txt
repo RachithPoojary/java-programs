@@ -1,0 +1,27 @@
+import java.util.*;
+
+class Main{
+    public static void main(String [] args){
+ 
+        Scanner sc = new Scanner(System.in);
+        
+        int a = sc.nextInt();
+        
+        int b = sc.nextInt();
+        
+        int c = sc.nextInt();
+        
+        if (a<0 || b<0 || c<0){
+            System.out.println("invalid age");
+        }else if (a<b && a<c){
+            System.out.println(a + " is the youngest");
+
+        }else if (b<c){
+             System.out.println(b + " is the youngest");
+
+        }else {
+             System.out.println(c + " is the youngest");
+
+        }
+    }
+}

@@ -1,0 +1,29 @@
+import java.util.*;
+
+class Main{
+    public static void main(String [] args){
+ 
+        Scanner sc = new Scanner(System.in);
+        System.out.println("What is the time :"); 
+        int a = sc.nextInt();
+        
+ if(a<0 || a>24){
+     System.out.println("invalid time");
+ }
+        
+    else if (a>=5 && a<=11){
+            System.out.println("Good Morning" );
+
+        }else if (a>=12 && a<=16){
+             System.out.println("Good Afternoon" );
+
+        }else if(a>=17 && a<=20) {
+             System.out.println("Good Evening");
+        }else 
+        {
+            System.out.println("Good Night");
+        }
+
+        }
+    }
+

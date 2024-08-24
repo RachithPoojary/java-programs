@@ -1,0 +1,24 @@
+
+class Main{
+
+    public static void main(String []args){
+        double a = 8;
+        double b = 9;
+        double c = 16;
+        double d = 88;
+        double e = 12;
+        double f = 22;
+        double g = 5;
+        
+        double sum = a+b+c+d+e;
+        double sub = a-b-c-d-e-f;
+        double mul = a*b*c*d*e*f*g;
+        double div = a/b;
+        
+        System.out.println("Addition ="+sum);
+        System.out.println("Substraction ="+sub);
+        System.out.println("Multiplication ="+mul);
+        System.out.println("Division ="+div);
+      
+    }
+}
